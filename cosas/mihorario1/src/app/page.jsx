@@ -1,9 +1,6 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-import Link from 'next/link'
-import TablaHorario from './elementos/TablaHorario'
+import TablaHorario from './componentes/TablaHorario'
 
-const Ejecutar = () =>{
+const App = () =>{
     return (
         <>
             <div className='container'>
@@ -12,3 +9,4 @@ const Ejecutar = () =>{
         </>
     );
 }
+export default App;
