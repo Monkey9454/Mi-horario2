@@ -1,0 +1,14 @@
+{
+  "name": "mihorario1",
+  "version": "1.0.0",
+  "description": "horario",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe González",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}

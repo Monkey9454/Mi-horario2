@@ -1,0 +1,99 @@
+import React from 'react';
+import {mat1, mat2,mat3, mat4, mat5, mat6, mat7,  mat8,  mat9,  mat10, mat11,} from '../elementos/materias';
+
+const TablaHorario = () => {
+    return ( 
+        <>
+        <table>
+            <thead>
+            
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Hora/Día</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <tr>
+                    <th>07:00am</th>
+                    <th>{mat1}</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                </tr>
+                <tr>
+                    <th>08:00am</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                </tr>
+                <tr>
+                    <th>09:00am</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                </tr>
+                <tr>
+                    <th>Descanso</th>
+                    <th>.</th>
+                    <th>.</th>
+                    <th>.</th>
+                    <th>.</th>
+                    <th>.</th>
+                </tr>
+                <tr>
+                    <th>10:00am</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                </tr>
+                <tr>
+                    <th>11:00am</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                </tr>
+                <tr>
+                    <th>12:00pm</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                </tr>
+                <tr>
+                    <th>Descanso</th>
+                    <th>.</th>
+                    <th>.</th>
+                    <th>.</th>
+                    <th>.</th>
+                    <th>.</th>
+                </tr>
+                <tr>
+                    <th>01:00pm</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                </tr>
+                
+            </tbody>
+        </table>
+        </>
+     );
+}
+ 
+export default TablaHorario;
